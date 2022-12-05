@@ -201,6 +201,11 @@
     letter-spacing: 0.06em;
     padding: 10px 24px;
  }
+
+ .overlay{
+   min-height: 600px;
+   outline: 1px solid #0000;
+ }
   
  /*Section*/
  .section{
@@ -298,6 +303,7 @@
     flex-basis: calc((100% - 3*30px) / 4);
     background-color: var(--white-color);
     padding-bottom: 30px;
+   border-radius: 0px 0px 4px 4px;
 
  }
 
@@ -305,10 +311,6 @@
    display: flex;
    gap: 30px;
  }
-
- .team-text{
-  
- } 
 
  .team-picture{
   display: block;
@@ -395,7 +397,7 @@
  
  .button-container{
    display: flex;
-   padding-bottom: 34px;
+   margin-bottom: 34px;
  }
 
  
@@ -454,9 +456,9 @@
  }
 
  .portfolio-text{
-   border-bottom: 1px solid #FFFFFF;
-   border-right: 1px solid #FFFFFF;
-   border-left: 1px solid #FFFFFF;
+   border-bottom: 1px solid #EEEEEE;
+   border-right: 1px solid #EEEEEE;
+   border-left: 1px solid #EEEEEE;
    padding-left: 24px;
    padding-bottom: 20px;
    padding-top: 20px;
